@@ -9,10 +9,7 @@ score = 0
 with open('questions.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
-#shuffle the questions so they appear in a random order each time the quiz is run
-with open('questions.json', 'r', encoding='utf-8') as file:
-    data = json.load(file)
-
+#shuffle data so the questions are in a random order
 random.shuffle(data)
 
 # print the questions
@@ -35,9 +32,6 @@ for question in data:
             break
         else:
             print("Invalid answer. Please enter A, B, C, or D.")
-
-            print(f"Valid answers are: {valid_answers}")
-            print(f"You typed: {user_answer}")
 
     # check if the answer is correct
     if user_answer == question["answer"]:
@@ -92,3 +86,4 @@ print("Score Board:")
 print()
 for entry in scores:
     print(f"{entry['name']}: {entry['score']}")
+print()
