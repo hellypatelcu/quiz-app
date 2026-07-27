@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What is the time complexity of binary search?",
+        "choices": ["A. O(n)", "B. O(n^2)", "C. O(log n)", "D. O(1)"],
+        "answer": "C"
+    },
+    {
+        "question": "Which data structure operates on a LIFO principle?",
+        "choices": ["A. Queue", "B. Stack", "C. Linked List", "D. Array"],
+        "answer": "B"
+    },
+    {
+        "question": "What does Git blame do?",
+        "choices": ["A. Deletes a commit", "B. Reverts a file to a previous version", "C. Shows who last modified each line of a file", "D. Merges two branches"],
+        "answer": "C"
+    },
+    {
+        "question": "How many bytes are in a kilobyte?",
+        "choices": ["A. 100", "B. 512", "C. 2048", "D. 1024"],
+        "answer": "D"
+    },
+    {
+        "question": "What does OOP stand for?",
+        "choices": ["A. Object Oriented Programming", "B. Open Object Processing", "C. Operational Output Program", "D. Object Output Protocol"],
+        "answer": "A"
+    },
+    {
+        "question": "What does CPU stand for?",
+        "choices": ["A. Central Processing Unit", "B. Core Program Utility", "C. Central Program Unit", "D. Computer Processing Unit"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of these is NOT a Python data type?",
+        "choices": ["A. List", "B. Tuple", "C. Vector", "D. Dictionary"],
+        "answer": "C"
+    },
+    {
+        "question": "What does RAM stand for?",
+        "choices": ["A. Read Access Memory", "B. Random Access Memory", "C. Run Application Memory", "D. Random Application Module"],
+        "answer": "B"
+    },
+    {
+        "question": "What symbol is used for single line comments in Python?",
+        "choices": ["A. //", "B. --", "C. #", "D. /*"],
+        "answer": "C"
+    },
+    {
+        "question": "What is the index of the first element in an array?",
+        "choices": ["A. 1", "B. -1", "C. 0", "D. Depends on the language"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of these is a version control system?",
+        "choices": ["A. Linux", "B. Git", "C. Python", "D. Docker"],
+        "answer": "B"
+    },
+    {
+        "question": "What does IDE stand for?",
+        "choices": ["A. Integrated Development Environment", "B. Internal Data Execution", "C. Integrated Data Engine", "D. Interface Design Editor"],
+        "answer": "A"
+    },
+    {
+        "question": "Which data structure uses FIFO ordering?",
+        "choices": ["A. Stack", "B. Tree", "C. Queue", "D. Graph"],
+        "answer": "C"
+    },
+    {
+        "question": "What is the result of 5 % 2 in most programming languages?",
+        "choices": ["A. 2", "B. 2.5", "C. 0", "D. 1"],
+        "answer": "D"
+    },
+    {
+        "question": "What does API stand for?",
+        "choices": ["A. Applied Programming Interface", "B. Application Process Integration", "C. Application Programming Interface", "D. Automated Program Interaction"],
+        "answer": "C"
+    }
+]
