@@ -83,3 +83,12 @@ with open('scores.json', 'w', encoding='utf-8') as file:
 #tell the user the score was saved
 print(f"Score saved for {name}.")
 print()
+
+#sort the scores in descending order
+scores.sort(key=lambda x: x["score"], reverse=True)
+
+#print score board
+print("Score Board:")
+print()
+for entry in scores:
+    print(f"{entry['name']}: {entry['score']}")
